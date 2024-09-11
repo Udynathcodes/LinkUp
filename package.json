@@ -1,7 +1,7 @@
 {
     "name": "linkup",
     "version": "1.0.0",
-    "description": "",
+    "description": "A chatting app for small scale circles",
     "main": "server.js",
     "scripts": {
         "server": "nodemon backend/server.js",
@@ -9,8 +9,11 @@
         "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
     },
     "type": "module",
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "chat",
+        "applications"
+    ],
+    "author": "Udynath",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",
